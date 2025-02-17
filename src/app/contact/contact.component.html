@@ -1,0 +1,55 @@
+<div class="container-fluid vh-100 bg-white">
+  <h3 class="text-uppercase text-center my-4">conatct section</h3>
+
+  <div class="justify-content-center mb-5 my-3 d-flex gap-3">
+    <div class="styel me-1"></div>
+    <i class="fa-solid fa-star"></i>
+    <div class="styel ms-1"></div>
+  </div>
+  <div class="item w-75 bg-white ms-auto">
+    <form action="" class="text-center d-flex flex-column align-items-start">
+      <label for="userName" [class.up]="hmada[0]" class="hmada down">
+        userName :
+      </label>
+      <input
+        (keyup)="inputStyle($event)"
+        id="0"
+        type="text"
+        class="border-top-0 border-end-0 border-start-0 me-3 py-3 mb-4"
+        id="userName"
+      />
+      <label for="userName" [class.up]="hmada[0]" class="hmada down">
+        userName :
+      </label>
+      <input
+        (keyup)="inputStyle($event)"
+        id="1"
+        type="number"
+        placeholder="userAge"
+        class="border-top-0 border-end-0 border-start-0 me-3 py-3 mb-4"
+      />
+      <label for="userName" [class.up]="hmada[0]" class="hmada down">
+        userName :
+      </label>
+      <input
+        (keyup)="inputStyle($event)"
+        id="2"
+        type="email"
+        placeholder="userEmail"
+        class="border-top-0 border-end-0 border-start-0 me-3 py-3 mb-4"
+      />
+      <label for="userName" [class.up]="hmada[0]" class="hmada down">
+        userName :
+      </label>
+      <input
+        (keyup)="inputStyle($event)"
+        id="3"
+        type="password"
+        placeholder="userPassword"
+        class="border-top-0 border-end-0 border-start-0 me-3 py-3 mb-3"
+      />
+    </form>
+
+    <button class="btn mt-4 text-white">send Message</button>
+  </div>
+</div>

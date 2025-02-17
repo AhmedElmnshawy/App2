@@ -1,0 +1,69 @@
+<section class="portfolio my-4">
+  <div class="container">
+    <h3 class="text-uppercase text-center mt-4">portfolio component</h3>
+    <div class="justify-content-center my-3 d-flex gap-3">
+      <div class="styel me-1"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="styel ms-1"></div>
+    </div>
+    <div class="row row-gap-5">
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/poert1.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="0" class="layer position-absolute">
+            <i id="0" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/port2.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="1" class="layer position-absolute">
+            <i id="1" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/port3.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="2" class="layer position-absolute">
+            <i id="2" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/poert1.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="3" class="layer position-absolute">
+            <i id="3" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/port2.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="4" class="layer position-absolute">
+            <i id="4" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="inner position-relative">
+          <img src="/img/port3.png" alt="" class="w-100" />
+          <div (click)="zoomin($event)" id="5" class="layer position-absolute">
+            <i id="5" class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if (show) {
+<div
+  (click)="zoomof($event)"
+  class="zoom position-fixed top-0 start-0 end-0 bottom-0 bg-info bg-opacity-75 d-flex justify-content-center align-items-center"
+>
+  <img src="{{ src }}" class="" alt="" />
+</div>
+}

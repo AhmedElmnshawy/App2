@@ -1,0 +1,15 @@
+section {
+  background-color: rgba(44, 62, 80);
+}
+.text-footer {
+  background-color: rgba(26, 37, 47);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin-left: 11px;
+  margin-right: 11px;
+}

@@ -1,0 +1,17 @@
+.about {
+  background-color: rgba(26, 188, 156);
+  height: 83vh;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+.styel {
+  background-color: #fff;
+  width: 80px;
+  height: 4px;
+  margin-top: 8px;
+}
